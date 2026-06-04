@@ -1,6 +1,6 @@
 {
     "name": "iobroker.bayrol",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Bayrol Pool Adapter for ioBroker",
     "author": {
         "name": "Your Name",
