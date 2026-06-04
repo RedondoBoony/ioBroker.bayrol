@@ -26,7 +26,7 @@ class Bayrol extends utils.Adapter {
         const username = this.config.username;
 
         if (!username) {
-            this.log.warn('Kein Benutzername konfiguriert. Bitte in den Adaptereinstellungen eintragen.');
+            this.log.warn('Kein Befnutzername konfiguriert. Bitte in den Adaptereinstellungen eintragen.');
             return;
         }
 
