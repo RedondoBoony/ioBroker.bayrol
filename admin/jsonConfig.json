@@ -1,0 +1,17 @@
+{
+    "type": "panel",
+    "items": {
+        "username": {
+            "type": "text",
+            "label": "Benutzername",
+            "sm": 12,
+            "md": 6
+        },
+        "password": {
+            "type": "password",
+            "label": "Passwort",
+            "sm": 12,
+            "md": 6
+        }
+    }
+}

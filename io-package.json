@@ -1,0 +1,45 @@
+{
+    "common": {
+        "name": "bayrol",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung"
+            }
+        },
+        "title": "Bayrol",
+        "titleLang": {
+            "en": "Bayrol",
+            "de": "Bayrol"
+        },
+        "desc": {
+            "en": "Bayrol Pool Adapter for ioBroker",
+            "de": "Bayrol Pool Adapter für ioBroker"
+        },
+        "authors": [
+            "Your Name <email@example.com>"
+        ],
+        "keywords": [
+            "bayrol",
+            "pool"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "enabled": true,
+        "loglevel": "info",
+        "mode": "daemon",
+        "adminUI": {
+            "config": "json"
+        },
+        "supportCustoms": false,
+        "type": "general"
+    },
+    "native": {
+        "username": "",
+        "password": ""
+    },
+    "objects": [],
+    "instanceObjects": []
+}
