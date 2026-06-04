@@ -22,11 +22,22 @@ class Bayrol extends utils.Adapter {
         const username = this.config.username;
         const password = this.config.password;
 
+        // Mögliche Pfade für System-Chromium auf Linux
+        const chromiumPaths = [
+            '/usr/bin/chromium',
+            '/usr/bin/chromium-browser',
+            '/usr/bin/google-chrome',
+            '/usr/bin/google-chrome-stable',
+        ];
+        const fs = require('fs');
+        const executablePath = chromiumPaths.find(p => fs.existsSync(p));
+
         let browser = null;
         try {
             browser = await puppeteer.launch({
                 headless: true,
-                args: ['--no-sandbox', '--disable-setuid-sandbox'],
+                executablePath: executablePath || undefined,
+                args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage'],
             });
             const page = await browser.newPage();
 
