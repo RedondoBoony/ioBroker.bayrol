@@ -3,8 +3,8 @@
     "version": "0.0.4",
     "description": "Bayrol Pool Adapter for ioBroker",
     "author": {
-        "name": "Your Name",
-        "email": "email@example.com"
+        "name": "Sven Rutten",
+        "email": "sven@rutten.ch"
     },
     "homepage": "",
     "license": "MIT",
