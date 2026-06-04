@@ -3,10 +3,9 @@
 // Simuliert die ioBroker-Umgebung lokal
 process.env.DEBUG = '*';
 
-// Konfiguration hier eintragen zum Testen
+// App-Link-Code hier eintragen zum Testen (8 Zeichen, aus Bayrol Pool Access App)
 const config = {
-    username: 'DEIN_USERNAME',
-    password: 'DEIN_PASSWORT',
+    appLinkCode: 'XXXXXXXX',
 };
 
 // Minimaler ioBroker-Stub

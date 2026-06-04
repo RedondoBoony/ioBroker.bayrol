@@ -37,8 +37,7 @@
         "type": "general"
     },
     "native": {
-        "username": "",
-        "password": ""
+        "appLinkCode": ""
     },
     "objects": [],
     "instanceObjects": []

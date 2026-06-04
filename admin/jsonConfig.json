@@ -1,17 +1,13 @@
 {
     "type": "panel",
     "items": {
-        "username": {
+        "appLinkCode": {
             "type": "text",
-            "label": "Benutzername",
+            "label": "App-Link-Code (8 Zeichen)",
+            "help": "Den Code findest du in der Bayrol Pool Access App unter: Einstellungen → App-Link",
             "sm": 12,
-            "md": 6
-        },
-        "password": {
-            "type": "password",
-            "label": "Passwort",
-            "sm": 12,
-            "md": 6
+            "md": 6,
+            "maxLength": 8
         }
     }
 }
